@@ -1,0 +1,25 @@
+{
+  "name": "marhaba-website",
+  "homepage": "https://github.com/marhabac33/marhaba-website",
+  "authors": [
+    "Marhababanu Chariwala <marhabac33@gmail.com>"
+  ],
+  "description": "Personal-website",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "resume"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

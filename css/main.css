@@ -119,10 +119,7 @@ header .header-content .header-content-inner p {
 section {
   padding: 100px 0;
   font-size: 18px;
-}
-
-#about{
-  height: 100%;
+  display: block;
 }
 
 .bg-primary {

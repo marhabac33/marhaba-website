@@ -136,7 +136,7 @@ section {
   margin-top: 0;
 }
 
-hr {
+hr.custom{
   border-color: #333333;
   border-width: 3px;
   max-width: 50px;

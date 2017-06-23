@@ -27,7 +27,7 @@ header{
   -o-background-size: cover;
   color: white;
   margin: auto;
-  background: url(https://static.pexels.com/photos/1526/dark-blur-blurred-gradient.jpg);
+  background: url('../media/background.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

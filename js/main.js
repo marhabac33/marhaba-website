@@ -1,13 +1,9 @@
 (function($) {
     "use strict"; // Start of use strict
-
-    window.onload = function() {
-        Particles.init({
-            selector: '.background',
-            connectParticles: true
-        });
-    };
-
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+    });
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', 'a.page-scroll', function(event) {
         var $anchor = $(this);

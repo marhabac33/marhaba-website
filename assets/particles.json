@@ -26,7 +26,7 @@
         "anim": {
             "enable": true,
             "speed": 1,
-            "opacity_min": 0.1,
+            "opacity_min": 1,
             "sync": true
         }
     },
@@ -42,9 +42,9 @@
     },
     "line_linked": {
         "enable": true,
-        "distance": 80,
+        "distance": 100,
         "color": "#000000",
-        "opacity": 0.3,
+        "opacity": 0.5,
         "width": 1
     },
     "move": {

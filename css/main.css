@@ -125,6 +125,29 @@ header .header-content .header-content-inner p {
   border-color: #022842;
 }
 
+.btn-default {
+  color: #ffffff;
+  background-color: #0c101b;
+  border-color: #0c101b;
+  font-weight: 700;
+  border-radius: 10px;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #ffffff;
+  color: #022842;
+  border-color: #022842;
+}
+
 section {
   padding: 100px 0;
   font-size: 18px;
@@ -160,7 +183,7 @@ hr.light{
 }
 
 #social-link a {
-  color: #0c101b;
+  color: #ffffff;
   margin: 11px;
 }
 
@@ -198,7 +221,7 @@ hr.light{
     height: 100%;
   }
 
-  .navbar-inverse { background-color: #0c101b}
+.navbar-inverse { background-color: #0c101b}
 .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #022842}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #022842}
 /*  .dropdown-menu { background-color: #FFFFFF}
@@ -218,3 +241,11 @@ hr.light{
   .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
   .navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
   .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}*/
+
+.project-heading{
+  padding-top: 20px;
+}
+
+.top30{
+  margin-top:30px;
+}
